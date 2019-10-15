@@ -1,0 +1,74 @@
+import { StyleSheet } from 'react-native';
+
+export const eventitemstyles = StyleSheet.create({
+	itemContainer:{
+		position:'relative',
+		flex:1,
+		flexDirection:'row',
+		height:90,
+		borderRadius:2,
+		backgroundColor:'white',
+	},
+	subItemContainerLeft:{
+		flex:1.5,
+	},
+	subItemContainerRight:{
+		flex:1,
+	},
+	headingTextView:{
+		flex:1,
+		justifyContent:'center',
+		paddingHorizontal:10,
+	},
+	headingText:{
+		fontFamily:'AvenirNextCondensed-MediumItalic',
+		fontSize:12,
+		color:'#e92a4b',
+	},
+	subHeadingTextView:{
+		flex:1,
+		justifyContent:'center',
+		paddingHorizontal:10,
+	},
+	subHeadingText:{
+		fontFamily:'Montserrat',
+		fontSize:14,
+		lineHeight:15,
+		color:'#404040',
+	},
+	subItemContainerLeftFooter:{
+		flex:1,
+		justifyContent:'center',
+		paddingHorizontal:10,
+	},
+	footerText:{
+		fontSize:14,
+		fontWeight:'500',
+		color:'#5a4964',
+	}
+});
+
+export const listitemstyles = StyleSheet.create({
+	itemContainer:{
+		flexDirection:'row',
+		paddingHorizontal:20,
+		paddingVertical:10,
+		borderBottomWidth:1,
+		borderBottomColor:'rgba(0,0,0,.05)'
+	},
+	itemContainerAlign:{
+		flex:1,
+		justifyContent:'center',
+		alignItems:'center'
+	},
+	itemHeadingText:{
+		fontFamily:'Oswald-regular',
+		fontSize:24,
+		color:'#393552',
+	},
+	itemSubHeadingText:{
+		fontFamily:'Open Sans',
+		fontSize:18,
+		color:'#393552',
+	},
+});

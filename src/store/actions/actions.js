@@ -1,0 +1,17 @@
+export const ADD_INPUT = 'ADD_INPUT';
+export const CLEAR_FORM = 'CLEAR_FORM';
+export const ADD_TICKET = 'ADD_TICKET';
+export const SET_EVENTS = 'SET_EVENTS';
+export const CACHE_EVENT = 'CACHE_EVENT';
+export const CHANGE_EVENT = 'CHANGE_EVENT';
+export const CLEAR_EVENT = 'CLEAR_EVENT';
+export const SET_DATASOURCE = 'SET_DATASOURCE';
+export const SET_UI_ICON = 'SET_UI_ICON';
+export const CLEAR_UI = 'CLEAR_UI';
+export const SET_FILTER_KEY_VALUE = 'SET_FILTER_KEY_VALUE';
+export const SET_FILTERED_LIST = 'SET_FILTERED_LIST';
+export const SET_FILTER = 'SET_FILTER';
+export const CACHE_DATA_FILTER = 'CACHE_DATA_FILTER';
+export const SET_UI_LOADING = 'SET_UI_LOADING';
+export const SET_UI_TRANSITIONING = 'SET_UI_TRANSITIONING';
+export const SET_USER_DATA = 'SET_USER_DATA';
